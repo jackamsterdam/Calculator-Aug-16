@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(202, 150, 130);
+}
+
+.enter-numbers {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 25px;
+}
+
+span {
+    color: blue;
+    font-size: 35px;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+#num1,
+#num2 {
+    background-color: lightblue;
+    margin: auto;
+}
+
+#answer {
+    background-color: yellow;
+    margin: auto;
+}
