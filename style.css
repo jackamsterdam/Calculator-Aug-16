@@ -12,6 +12,13 @@ body {
     margin-top: 25px;
 }
 
+.myName {
+    color: rgba(28, 4, 114, 0.8);
+    /* text-decoration: underline; */
+    font-style: italic;
+    font-size: 23px;
+}
+
 span {
     color: blue;
     font-size: 35px;
@@ -19,17 +26,31 @@ span {
 
 button {
     cursor: pointer;
+    border: 2px solid black;
     border-radius: 5px;
-    margin-left: 5px;
+    margin: auto;
 }
 
-#num1,
+
+/* #num1,
 #num2 {
+    background-color: lightblue;
+    margin: auto;
+} */
+
+
+/* #answer {
+    background-color: yellow;
+    margin: auto;
+} */
+
+.enter-numbers input:first-child,
+.enter-numbers input:nth-of-type(2) {
     background-color: lightblue;
     margin: auto;
 }
 
-#answer {
+.enter-numbers input:last-of-type {
     background-color: yellow;
     margin: auto;
 }
